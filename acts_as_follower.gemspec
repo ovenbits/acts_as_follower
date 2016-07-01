@@ -5,7 +5,7 @@ require "acts_as_follower/version"
 Gem::Specification.new do |s|
   s.name        = "acts_as_follower"
   s.version     = ActsAsFollower::VERSION
-  s.authors     = ["Tom Cocca"]
+  s.authors     = ["Tom Cocca", "Don Sullivan"]
   s.email       = ["tom dot cocca at gmail dot com"]
   s.homepage    = "https://github.com/tcocca/acts_as_follower"
   s.summary     = %q{A Rubygem to add Follow functionality for ActiveRecord models}
@@ -23,5 +23,5 @@ Gem::Specification.new do |s|
   s.add_development_dependency "shoulda_create"
   s.add_development_dependency "shoulda", ">= 3.5.0"
   s.add_development_dependency "factory_girl", ">= 4.2.0"
-  s.add_development_dependency "rails", "~> 4.0.0"
+  s.add_development_dependency "rails", ">= 4.0.0"
 end
